@@ -5,12 +5,13 @@ import Footer from "../components/Footer";
 
 import Link from "next/link";
 import Menu from "../components/Menu";
+import SignUp from "../components/SignUp";
 
 const Login = () => {
   return (
     <div className={styles.container}>
       <Header />
-
+      <SignUp/>
       <div className={styles.hbackgroud}></div>
       <div className={styles.loginCon}>
         <div className={styles.leftCon}>

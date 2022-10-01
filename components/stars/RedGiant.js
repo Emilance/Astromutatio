@@ -21,7 +21,7 @@ import { useRef } from 'react'
     const [size, setSize] = useState(1)
     setTimeout(()=>{
       if(x == -1){      
-        setX(1)
+        setX(3)
         setSize(1)
       }else if(x == 0 ){
          setSize(2)

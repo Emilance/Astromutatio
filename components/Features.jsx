@@ -38,7 +38,7 @@ const  features = [
         title: "Ready to upgrade your rank?",
         subtitle: "Take a quiz to upgrade your rank on whySpace ",
         overlayText: "level  up !!!",
-        link: "/quiz"
+        link: "quiz/d"
     }
 ]
 

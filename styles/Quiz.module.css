@@ -1,0 +1,98 @@
+.container{
+    background-color: rgb(236, 229, 229);
+    color:black;
+    height: 100vh;
+    text-align: center;
+}
+.hbackgroud{
+    height: 5rem;
+    background-color: rgba(76, 43, 226, 0.781);
+   
+}
+
+.quizSection{
+    display: flex;
+  
+}
+.leftCon{
+    flex: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(to bottom, #e9e9e911 70%,   rgba(236, 229, 229, 0.103) 5%), url('/night1.png') ;
+    background-position:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    color:white;
+    font-weight:600;
+    font-size: 3rem;
+}
+
+
+.rightCon{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.rightCon > hr {
+    font-size: 1rem;
+    background-color: black;
+  
+}
+.rightCon  > h1{
+      font-weight: 600;
+      text-align: center;
+      width: 80%;
+      margin:1rem auto;
+      background-color: rgba(76, 43, 226, 0.781) ;
+      border-radius: 2rem;
+      color: white;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+     align-items: center;
+
+}
+
+.optionCon{
+    display: flex;
+    width: 80%;
+}
+.rightOpt{
+   flex:1;
+
+}
+.leftOpt{
+    flex:1;
+
+ }
+.option{
+    background-color: rgba(76, 43, 226, 0.781) ;
+    margin: 1.5rem auto;
+    height: 3rem;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    color:white;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: rgba(76, 43, 226, 0.596) ;
+    font-size: x-large;
+}
+
+
+
+@media (max-width:600px) {
+    .quizSection{
+       flex-direction: column;
+      
+    }
+}

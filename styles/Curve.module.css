@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    width: 80vw;
+    height: 80vh;
+    
+}
+.container > h1{
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .container{
+         width: 95%;
+         
+    }
+    .container> h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .container > h3{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+ 
+}

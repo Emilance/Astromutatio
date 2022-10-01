@@ -1,0 +1,98 @@
+
+.container{
+      height: 20rem;
+      width: 20rem;
+      margin: 0 1rem;
+      box-shadow: 1px 1px 2px rgb(41, 40, 40);
+      border-radius: 0.5rem;
+      cursor: pointer;
+      background-color: aliceblue;
+      color: black;
+      transition: all ease 0.5s;
+     
+
+}
+
+.container:hover  {
+    background-color: rgba(255, 250, 240, 0.829);
+    transform: scale(1.01);
+}
+
+.imgCon{
+    position: relative;
+    height: 70%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.imgOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575) ;
+    border-radius: 0.5rem;
+    display: none;
+    
+}
+
+.imgCon:hover .imgOverlay{
+    display: flex;
+   
+}
+.imgOverlay> p {
+    color: white;
+    font-size: 1.2rem;
+    width: 80%;
+    text-align: center;
+}
+.img {
+    border-radius: 0.5rem 0.5rem 0  0;
+}
+.caption{
+  width: 100%;
+  display: flex;
+}
+.leftCon {
+    flex: 0.5;
+}
+
+.star{
+    background-color: rgb(77, 77, 77);
+    height: 100%;
+    width: 80%;
+    color:white;
+    font-size: 1.2;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.rightCon{
+    flex: 1;
+}
+
+.rightCon> h3 {
+    margin :0;
+    padding: 0;
+}
+.rightCon> p {
+    margin :0;
+    padding: 0;
+    font-weight: 560;
+}
+
+
+
+
+@media (max-width:600px) {
+    .container{
+        width: 15rem;
+    }
+    .rightCon> h3{
+        font-size: 1rem;
+    }
+    .rightCon> p{
+        font-size: 0.9rem;
+    }
+}

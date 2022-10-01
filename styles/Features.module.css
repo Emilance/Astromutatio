@@ -1,0 +1,67 @@
+.container{
+  width: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+  margin:3rem  0 4rem 0;
+  
+}
+
+.container > h1{
+    text-align: center;
+}
+
+.carouselCon{
+    display: flex;
+  
+    margin-top: 1.5rem;
+    width: fit-content;
+    height: 21rem;
+
+}
+
+.extCarouselCon{
+    overflow: hidden;
+    scroll-behavior: smooth;
+    width: 90%;
+    margin: auto;
+ 
+
+
+}
+
+.leftArrow{
+    position: absolute;
+    top:50%;
+    transform: translate(50, -50);
+    left: 3%;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.rightArrow{
+    position: absolute;
+    top:50%;
+    transform: translate(50, -50);
+    right: 3%;
+    z-index: 20;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+@media (max-width:600px) {
+    .leftArrow , .rightArrow{
+         display: none;
+    }
+    .extCarouselCon{
+        overflow-x: scroll;
+    }
+    .container > h1{
+    font-size: 1rem;
+    }
+    
+}

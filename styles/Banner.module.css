@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap'); 
+ .container{
+  display: flex;
+  background-image:linear-gradient(to bottom, #e9e9e911 70%,   rgba(236, 229, 229, 0.178) 5%), url('/astroMutatio.jpg') ;
+  background-position:contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 35rem;
+  align-content: center;
+  justify-content: center;
+  padding-top:5rem;
+}
+
+.leftCon{
+    flex:1;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 1s;
+    
+}
+
+.leftCon > h3 {
+    font-size: 3rem;
+    text-align:center;
+    margin: 0;
+    color: white;
+
+}
+
+.leftCon > p {
+    font-family: 'Bungee Spice', cursive;
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+    font-weight:450;
+}
+.rightCon{
+    flex:1;
+    
+}
+
+
+
+.imgCon {
+    position: relative;
+    height:20rem;
+    width: 100%;
+    animation: bounce 3s linear 0s infinite ;
+}
+
+@keyframes  bounce {
+    0%, 20%,  100% { transform: translateY(0);}
+    40%  {transform: translateY(-20px)}
+    70%  {transform: translateY(-15px);}
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+    .container{
+        flex-direction: column-reverse;
+        height:80vh;
+    }
+    .leftCon > h3 {
+        font-size: 2.5rem;
+        text-align:center;
+    
+    }
+   
+    .leftCon > p {
+        font-size: 2.5rem;
+        
+    }
+}

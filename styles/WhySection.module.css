@@ -1,0 +1,163 @@
+.container{
+    height: fit-content;
+    background-color: rgba(76, 43, 226, 0.295);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container> h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+.body{
+    width: 80%;
+    margin:auto;
+    display: flex;
+}
+
+.leftCon  {
+    flex: 1;
+
+}
+
+.rightCon{
+    flex: 1;
+}
+
+
+.questionCon {
+    border: 1px solid rgba(0, 0, 0, 0.575);
+    padding:0 0.6rem;
+    height: 4rem;
+    border-radius:0.8rem;
+    cursor: pointer;
+    width: 90%;
+    margin:0.5rem;
+    display: flex;
+    align-items:center;
+
+
+}
+
+.questionCon > p {
+    color: black;
+    font-weight: 600;
+}
+.questionCon:hover {
+    box-shadow: 1px 0px 1px black;
+    font-weight: 700;
+    color:black;
+  
+}
+.buttonCon{
+    margin: 2rem  auto;
+    height: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.buttonCon > button {
+    background-color:  rgba(76, 43, 226, 0.781);
+    width: 32%;
+    height: 3rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.buttonCon > button:hover{
+    transform: scale(1.01);
+    background-color: transparent;
+    border: 2px solid  rgba(76, 43, 226, 0.781);
+    color:  rgba(76, 43, 226, 0.781);
+    
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    .container >h1 {
+        font-size: 1rem;
+    }
+    .rightCon{
+         display: none;
+    }
+    .buttonCon > button {
+      font-size: 0.8rem;
+      width: 100%;
+      height: 2.5rem;
+      margin-top: 0.5rem;
+
+    }
+    .desktopOnly{
+        display:none;
+    }
+    .buttonCon {
+        flex-direction: column;
+        height: fit-content;
+       }
+     
+    
+}
+
+
+
+
+
+@media (max-width:600px) {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

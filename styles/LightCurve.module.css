@@ -1,0 +1,141 @@
+.container{
+    /* background-image:url('/milky.png');
+    background-position:contain;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+    height: 100vh;
+    background-color: rgb(236, 229, 229);
+}
+
+.lcontainer{
+   height: 100vh;
+    background-color: black;
+}
+.container > h1{
+   padding-top: 3rem;
+   padding-bottom: 1rem;
+    text-align: center;
+    font-size: 1.9rem;
+    margin:0;
+    color:black;
+}
+.starCon{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hbackgroud{
+    height: 5rem;
+    background-color: rgba(76, 43, 226, 0.781);
+   
+}
+
+.star{
+    height: 10rem;
+    width: 13rem;
+    margin: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    color:black;
+    font-weight: 600;
+    box-shadow: 15px 10px 11px white;
+    background-color: rgb(252, 101, 0);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+.star2{
+    height: 10rem;
+    width: 13rem;
+    margin: 1rem;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    background-color:  rgb(106, 106, 110);
+}
+
+.star:hover{
+    transform:scale(1.01)  rotateZ(30deg);
+}
+
+.star2:hover{
+    transform:scale(1.01)  rotateZ(-30deg);
+}
+
+.buttonCon{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3rem;
+    height: 4rem;
+
+}
+.buttonCon > button {
+    width: 6rem;
+    height: 3rem;
+    border-radius: 7px;
+    background-color:  rgba(76, 43, 226, 0.822);
+    cursor: pointer;
+}
+
+.buttonCon > button:hover{
+    transform: scale(1.01);
+    background-color:  rgb(76, 43, 226);
+}
+
+.backButton{
+    position: fixed;
+    top:6rem;
+    left:1rem;
+    color: white;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    z-index: 500;
+    
+  }
+   
+  .backButton:hover{
+    transform: scale(1.05);
+  }
+
+ 
+
+
+
+
+@media (max-width:600px) {
+    .buttonCon{
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+    .buttonCon > button {
+        margin-left: 1rem;
+        height: 2.5rem;
+    }
+    .star , .star2{
+        width:8rem;
+        height: 8rem;
+        font-size: 0.6rem;
+    }
+    .container> h1{
+        font-size: 1.5rem;
+       
+    }
+
+}

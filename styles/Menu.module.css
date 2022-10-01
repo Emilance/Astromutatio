@@ -1,0 +1,44 @@
+.container{
+    position: fixed;
+     right:6%;
+     bottom: 20%;
+     z-index:700;
+     padding:1rem 0.3rem;
+    border-radius:3rem ;
+     background-color:transparent;
+}
+
+
+.menuIcon{
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+     margin-top: 1rem;
+     display: flex;
+     align-items: center;
+     justify-content:center ;
+     cursor: pointer;
+    color: black;
+    background-color: white;
+}
+.menuIcon:hover{
+    background-color: rgba(76, 43, 226, 0.192) ;
+    transform: scale(1.05);
+}
+
+#menuKey{
+
+    background-color: white;
+}
+
+#menuKey:hover{
+   transform: scale(1.05);
+   background-color: rgba(76, 43, 226, 0.192) ;
+
+}
+
+@media (max-width:600px) {
+    .container{
+        bottom:15% ;
+    }
+}

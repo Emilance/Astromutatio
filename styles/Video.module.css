@@ -126,9 +126,9 @@
 
 .backButton{
     position: fixed;
-    top:6rem;
+    top:3rem;
     left:1rem;
-    color: rgba(0, 0, 0, 0.788);
+    color: red;
     display:flex;
     align-items: center;
     cursor: pointer;
@@ -148,18 +148,16 @@
 
 
   .vcontainer{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
+    height: 100vh;
+    width: 100vw;
   }
-  .vid{
-    flex: 1;
-  }
+ 
   .description{
     flex:1;
     background-color:  rgb(76, 43, 226);
   }
+  
+  
 
   @media (max-width:1100px) {
   .videoCon{

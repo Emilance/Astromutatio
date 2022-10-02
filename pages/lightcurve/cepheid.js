@@ -22,7 +22,7 @@ const Cepheid =() => {
                 
                  <RenderLineChart  data={cepheid}
                   title="LightCurve sample for Cepheid variable"
-                  subtitle="Cepheid a type  of pulsative variable"
+                  subtitle="A graphical representation of brightness against  time"
                  />
              </div>
              <div className={styles.buttonCon}>

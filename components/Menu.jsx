@@ -16,7 +16,7 @@ const Menu = () => {
             openMenu  &&
           
             <div className={styles.menu}>
-              <Link href="/3d">
+              <Link href="/lightcurve">
 
                <div data-aos="fade-up" data-aos-duration="1000"  className={styles.menuIcon}>
                  <FcLineChart size="40px"/>

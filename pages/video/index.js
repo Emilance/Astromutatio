@@ -20,6 +20,11 @@ const videoContent =[
         link: "/video/r13ygxgXJAM"
     },
     {
+        title:"An high level overview of what variable stars are",
+        img: '/how2.jpg',
+        link: "/video/GKctq20u8SI"
+    },
+    {
         title:"what are cepheid variable",
         img: '/astroMutatio.jpg',
         link: "/video/QSttRD3nU9g"
@@ -27,17 +32,17 @@ const videoContent =[
     {
         title:"What  are eclipsing variables ?",
         img: '/eclipsing.png',
-        link: "/video/"
+        link: "/video/meeSpRGk74o"
     },
     {
         title:"What  are cataclysmic variables ?",
         img: '/cataclysmic.png',
-        link: "/video/"
+        link: "/video/hWxsl9ZRgWM"
     },
     {
-        title:"What  are pulsating variables ?",
+        title:"What  are pulsating variables ?s",
         img: '/pulsating.png',
-        link: "/video/"
+        link: "/video/C4lRmBEdrIc"
     },
     {
         title:"What  are stars ? how are they form  and how will they be destroyed",

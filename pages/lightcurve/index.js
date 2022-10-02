@@ -8,7 +8,7 @@ import Menu from "../../components/Menu"
 const LightCurve =() => {
 
     return(
-         <div className={styles.container}>
+         <div className={styles.lightcontainer}>
             
             <Header/>
             <div className={styles.hbackgroud}></div>
@@ -18,7 +18,7 @@ const LightCurve =() => {
             return(
                 <Link  key={i} href={data.link}>
 
-               <div className={(i%2 == 0 ? styles.star : styles.star2)}>
+               <div className={(i%2 == 0 ? styles.lstar : styles.lstar2)}>
                   <p>{data.name}</p>
               </div>
                 </Link>

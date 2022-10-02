@@ -26,7 +26,7 @@ const Cepheid =() => {
              </div>
              <div className={styles.buttonCon}>
                <Link  href="/3d/draconis">
-                <button>lightcurve</button>
+                <button>3D visualizer</button>
                </Link>
 
                 <button>Learn More</button>

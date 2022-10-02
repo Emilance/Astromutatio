@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>AtroMutatio</title>
+        <title>AstroMutatio</title>
         <meta name="description" content="Why Space app for learning astronmy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

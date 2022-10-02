@@ -34,11 +34,11 @@ export default function RenderLineChart({data, title, subtitle}) {
     >
       <CartesianGrid strokeDasharray="3 3" horizontal="true" vertical="true" />
       <XAxis dataKey="name" />
-      <YAxis dataKey="amt" />
+      <YAxis dataKey="brightness" />
       <Tooltip />
       <Legend />
     
-      <Line type="monotone" dataKey="amt" stroke="#82ca9d" strokeWidth="3" activeDot={{r : 8}} />
+      <Line type="monotone" dataKey="brightness" stroke="#82ca9d" strokeWidth="3" activeDot={{r : 8}} />
     </LineChart>
      </ResponsiveContainer>
     </div>

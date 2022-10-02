@@ -4,7 +4,6 @@ import { Canvas } from "@react-three/fiber";
 import React, { Suspense, useEffect, useState } from "react";
 import styles from "../../styles/Cepheid.module.css";
 import { MdKeyboardBackspace } from "react-icons/md";
-import Draconis from "../../components/variables/Draconis";
 
 import { RedGiant1 } from "../../components/stars/RedGiant1";
 import { RedGiant2 } from "../../components/stars/Redgiant2";
@@ -12,10 +11,10 @@ import { RedGiant2 } from "../../components/stars/Redgiant2";
 function Eclipsing() {
   const [currentYear, setCurrentYear] = useState(0);
   const changeYear = () => {
-    setCurrentYear((currentYear += 1));
+    setCurrentYear((currentYear += 4000));
   };
 
-  if (currentYear >= 39) {
+  if (currentYear >= 16000) {
     setCurrentYear(0);
   } else {
     setTimeout(() => {
@@ -40,14 +39,16 @@ function Eclipsing() {
           obscuring of the light seen on Earth.{" "}
         </p>
         <label htmlFor="year">{`${currentYear} -days`}</label>
-        <progress id="year" max="39" value={currentYear}>
-          5days
+        <progress id="year" max="16000" value={currentYear}>
+          16000days
         </progress>
         <div className={styles.buttonCon}>
           <Link href="/lightcurve/ecipsing">
             <button>lightcurve</button>
           </Link>
+          <Link href="/video/meeSpRGk74o">
           <button>Learn More</button>
+          </Link>
         </div>
       </div>
       <Canvas>

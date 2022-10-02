@@ -1,24 +1,24 @@
 export const cepheid = [
     {
       name: "15",
-      amt: 7,
+      brightness: 7,
     },
   
     {
       name: "45",
-      amt: 1
+      brightness: 1
     },
     {
       name: "60",
-      amt: 7
+      brightness: 7
     },
     {
       name: "100",
-      amt: 1
+      brightness: 1
     },
     {
       name: "115",
-      amt: 6
+      brightness: 6
     },
  
   ];
@@ -27,24 +27,24 @@ export const cepheid = [
   export const draconic = [
     {
       name: "15",
-      amt: 7,
+      brightness: 7,
     },
     {
       name: "45",
-      amt: 1
+      brightness: 1
     },
     {
       name: "60",
-      amt: 7
+      brightness: 7
     },
 
     {
       name: "100",
-      amt: 1
+      brightness: 1
     },
     {
       name: "115",
-      amt: 6
+      brightness: 6
     }
   ];
   

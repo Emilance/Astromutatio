@@ -43,9 +43,11 @@ function App() {
         </progress>
         <div className={styles.buttonCon}>
           <Link href="/lightcurve/cepheid">
-            <button>Learn More</button>
+            <button>LightCurve</button>
           </Link>
+          <Link href="/video/C4lRmBEdrIc">
           <button>Learn More</button>
+          </Link>
         </div>
       </div>
       <Canvas>

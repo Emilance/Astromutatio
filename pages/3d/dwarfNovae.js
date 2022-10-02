@@ -11,10 +11,10 @@ import { Hotblue } from "../../components/stars/Hotblue";
 function Dwarf() {
   const [currentYear, setCurrentYear] = useState(0);
   const changeYear = () => {
-    setCurrentYear((currentYear += 1));
+    setCurrentYear((currentYear += 37));
   };
 
-  if (currentYear >= 39) {
+  if (currentYear >= 296) {
     setCurrentYear(0);
   } else {
     setTimeout(() => {
@@ -43,14 +43,16 @@ function Dwarf() {
           </p>{" "}
         </p>
         <label htmlFor="year">{`${currentYear} -days`}</label>
-        <progress id="year" max="39" value={currentYear}>
-          5days
+        <progress id="year" max="296" value={currentYear}>
+        296days
         </progress>
         <div className={styles.buttonCon}>
           <Link href="/lightcurve/draconis">
             <button>lightcurve</button>
           </Link>
+          <Link  href="/video/hWxsl9ZRgWM">
           <button>Learn More</button>
+          </Link>
         </div>
       </div>
       <Canvas>

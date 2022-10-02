@@ -21,7 +21,7 @@ const Cepheid =() => {
           </Link>
                 
                  <RenderLineChart  data={cepheid}
-                  title="LightCurve for Delta Cephei"
+                  title="LightCurve sample for Cepheid variable"
                   subtitle="Cepheid a type  of pulsative variable"
                  />
              </div>

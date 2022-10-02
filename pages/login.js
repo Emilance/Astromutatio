@@ -6,12 +6,22 @@ import Footer from "../components/Footer";
 import Link from "next/link";
 import Menu from "../components/Menu";
 import SignUp from "../components/SignUp";
+import { useState } from "react";
 
 const Login = () => {
+  const [openSignUp, setOpenSignUp]= useState(false)
+
+
+   const openSignUpForm = e =>{
+      e.preventDefault()
+      setOpenSignUp(!openSignUp)
+   }
+  
   return (
     <div className={styles.container}>
       <Header />
-      <SignUp/>
+      {openSignUp    &&   <SignUp setOpenSignUp={setOpenSignUp}  openSignUp={openSignUp} />  }
+     
       <div className={styles.hbackgroud}></div>
       <div className={styles.loginCon}>
         <div className={styles.leftCon}>
@@ -33,7 +43,7 @@ const Login = () => {
             <a href="#" className={styles.link}>
               Forgotten Password?
             </a>
-            <button className={styles.button}>Create New Account</button>
+            <button  onClick={e => openSignUpForm(e)} className={styles.button}>Create New Account</button>
           </form>
         </div>
       </div>

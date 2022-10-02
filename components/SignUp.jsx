@@ -1,10 +1,16 @@
 import React from "react";
 import styles from "../styles/SignUp.module.css";
+import {ImCross} from "react-icons/im"
 
-const SignUp = () => {
+const SignUp = (props) => {
+   const {openSignUp, setOpenSignUp}=   props
   return (
     <div className={styles.container}>
       <form>
+        <div onClick={()=> setOpenSignUp(!openSignUp)} className={styles.cancelIcon}>
+          <ImCross size="20"/>
+        </div>
+
         <h1>Sign Up</h1>
         <p> sign up with ur info</p>
         <div className={styles.field}>

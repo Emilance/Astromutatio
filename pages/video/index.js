@@ -25,18 +25,18 @@ const videoContent =[
         link: "/video/QSttRD3nU9g"
     },
     {
-        title:"What  are stars ? how are they form  and how will they be destroyed",
-        img: '/astroMutatio.jpg',
+        title:"What  are eclipsing variables ?",
+        img: '/eclipsing.png',
         link: "/video/"
     },
     {
-        title:"What  are stars ? how are they form  and how will they be destroyed",
-        img: '/astroMutatio.jpg',
+        title:"What  are cataclysmic variables ?",
+        img: '/cataclysmic.png',
         link: "/video/"
     },
     {
-        title:"What  are stars ? how are they form  and how will they be destroyed",
-        img: '/astroMutatio.jpg',
+        title:"What  are pulsating variables ?",
+        img: '/pulsating.png',
         link: "/video/"
     },
     {

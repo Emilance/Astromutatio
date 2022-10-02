@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "../../components/Header"
+import Menu from "../../components/Menu"
 import styles from '../../styles/Quiz.module.css'
 
 
@@ -37,7 +38,7 @@ const Quiz = ()=>{
                            </div>
                  </div>
              </div>
-             
+             <Menu/>
         </div>
     )
 }

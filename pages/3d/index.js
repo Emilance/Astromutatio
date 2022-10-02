@@ -12,7 +12,7 @@ const ThreeD =() => {
              
             <Header/>
             <div className={styles.hbackgroud}></div>
-               <h1 > click a star  to visualize the its variation in 3D</h1>
+               <h1 > click a variable star  to visualize the its variation in 3D</h1>
              <div className={styles.starCon}>
          {stars.map((data, i)=>{
             return(
@@ -27,6 +27,7 @@ const ThreeD =() => {
                
                
              </div>
+             <h1 > click a variable star  to visualize the its variation in 3D</h1>
             <Menu/>
          </div>
     )

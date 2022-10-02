@@ -10,15 +10,13 @@ import * as THREE from "three"
 import { useRef } from 'react'
 
 
-function Planet ({currentYear}){
+function Eruptive ({currentYear}){
 //   const [i, setI]= useState(0.5)
   if((currentYear >= 1 && currentYear <= 5))
   {
    var i = 2
-   var  x = 1.5
   }else{
     var i = 0.5
-    var x  = 1.1
   }
      const colorMap = useTexture("/sunmap2.png")
      const cloudMap = useTexture("/sunmap4.png")
@@ -34,7 +32,7 @@ function Planet ({currentYear}){
           <>
           <ambientLight intensity={i} />
           <mesh  ref={cloudRef}    >
-          <sphereGeometry  args={[x*1.3, 32, 32 ]}/>
+          <sphereGeometry  args={[1.3, 32, 32 ]}/>
           <meshPhongMaterial map={cloudMap}    
           opacity={0.4}
           depthWrite ={true}
@@ -52,7 +50,7 @@ function Planet ({currentYear}){
 
           />
           <mesh ref={earthRef}>
-              <sphereGeometry  args={[x, 32, 32 ]}/>
+              <sphereGeometry  args={[1, 32, 32 ]}/>
               <meshPhongMaterial  color='red'  />
               <meshStandardMaterial map={colorMap} />
               <OrbitControls  enableZoom={true} 
@@ -70,4 +68,4 @@ function Planet ({currentYear}){
 }
 
 
-export default Planet
+export default Eruptive

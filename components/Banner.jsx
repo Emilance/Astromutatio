@@ -3,8 +3,8 @@ import Image from "next/image";
 import { useEffect, useState } from 'react';
 
 
-const headerSubtitle ="Come Let's learn dynamic "
-const astronomy ="astronomy"
+const headerSubtitle ="Come Let's learn stellar "
+const astronomy ="variability"
 const Banner = () => {
     const [typingWord, setTypingWord] = useState('')
     const [typingWord1, setTypingWord1] = useState('')

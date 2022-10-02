@@ -22,7 +22,7 @@ const Footer = () => {
                <a href='#'> Astronomy picture of the day</a>
           </div>
           <div className={styles.rightCon}>
-             <h3> WhySpace</h3>
+             <h3> AstroMutatio</h3>
              <p>Contact Us</p>
              <p>Our Team </p>
           </div> 

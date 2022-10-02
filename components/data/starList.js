@@ -22,6 +22,6 @@ export const stars = [
   {
     name: "Eruptive",
     link: "/ligthcurve",
-    dlink: "/3d",
+    dlink: "/3d/eruptive",
   },
 ];

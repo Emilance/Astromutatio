@@ -27,18 +27,18 @@ const  features = [
         link: "/lightcurve"
     },
     {
-        image:'/universe.png',
-        title: "Today's Night Sky",
-        subtitle: "what you should know about  today's night sky",
-        overlayText:"the variabiity of today's night",
-        link: "/atronomypics"
-    },
-    {
         image:'/quiz.jpg',
         title: "Ready to upgrade your rank?",
-        subtitle: "Take a quiz to upgrade your rank on whySpace ",
+        subtitle: "Take a quiz to upgrade your rank on astromutatio ",
         overlayText: "level  up !!!",
         link: "quiz/d"
+    },
+    {
+        image:'/universe.png',
+        title: "Astronomic picture",
+        subtitle: "Astronomic pictureof the day",
+        overlayText:"the variabiity of today's night",
+        link: "/atronomypics"
     }
 ]
 

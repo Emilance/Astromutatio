@@ -1,4 +1,5 @@
 import React from "react"
+import Footer from "../../components/Footer"
 import Header from "../../components/Header"
 import Menu from "../../components/Menu"
 import styles from '../../styles/Quiz.module.css'
@@ -39,6 +40,7 @@ const Quiz = ()=>{
                  </div>
              </div>
              <Menu/>
+             <Footer/>
         </div>
     )
 }
